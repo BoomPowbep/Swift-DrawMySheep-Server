@@ -9,11 +9,36 @@
 /* Begin PBXBuildFile section */
 		BB75E7822417BCEC0076924A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7812417BCEC0076924A /* AppDelegate.swift */; };
 		BB75E7842417BCEC0076924A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7832417BCEC0076924A /* SceneDelegate.swift */; };
-		BB75E7862417BCEC0076924A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7852417BCEC0076924A /* ViewController.swift */; };
+		BB75E7862417BCEC0076924A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7852417BCEC0076924A /* MainViewController.swift */; };
 		BB75E7892417BCEC0076924A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB75E7872417BCEC0076924A /* Main.storyboard */; };
 		BB75E78B2417BCEE0076924A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB75E78A2417BCEE0076924A /* Assets.xcassets */; };
 		BB75E78E2417BCEE0076924A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB75E78C2417BCEE0076924A /* LaunchScreen.storyboard */; };
 		BB75E7992417BCEE0076924A /* drawMySheepServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7982417BCEE0076924A /* drawMySheepServerTests.swift */; };
+		BB75E7F92417C05E0076924A /* ChatPeripherals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7DB2417C05E0076924A /* ChatPeripherals.swift */; };
+		BB75E7FA2417C05E0076924A /* ChararcteristicPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7DD2417C05E0076924A /* ChararcteristicPipe.swift */; };
+		BB75E7FB2417C05E0076924A /* BLEServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7DE2417C05E0076924A /* BLEServer.swift */; };
+		BB75E7FC2417C05E0076924A /* UIVIewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7DF2417C05E0076924A /* UIVIewControllerExtension.swift */; };
+		BB75E7FD2417C05E0076924A /* GATTStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7E02417C05E0076924A /* GATTStruct.swift */; };
+		BB75E7FE2417C05E0076924A /* PeripheralState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7E22417C05E0076924A /* PeripheralState.swift */; };
+		BB75E7FF2417C05E0076924A /* PeripheralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7E32417C05E0076924A /* PeripheralController.swift */; };
+		BB75E8002417C05E0076924A /* CharacteristicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7E42417C05E0076924A /* CharacteristicController.swift */; };
+		BB75E8012417C05E0076924A /* ServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7E52417C05E0076924A /* ServiceController.swift */; };
+		BB75E8022417C05E0076924A /* PeripheralGATT.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7E72417C05E0076924A /* PeripheralGATT.swift */; };
+		BB75E8032417C05E0076924A /* GattModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7E82417C05E0076924A /* GattModel.swift */; };
+		BB75E8042417C05E0076924A /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7EA2417C05E0076924A /* ArrayExtensions.swift */; };
+		BB75E8052417C05E0076924A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7EB2417C05E0076924A /* StringExtensions.swift */; };
+		BB75E8062417C05E0076924A /* DataConvertibleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7EC2417C05E0076924A /* DataConvertibleExtensions.swift */; };
+		BB75E8072417C05E0076924A /* ScenarioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7EE2417C05E0076924A /* ScenarioManager.swift */; };
+		BB75E8082417C05E0076924A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7EF2417C05E0076924A /* Stack.swift */; };
+		BB75E8092417C05E0076924A /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7F02417C05E0076924A /* Scenario.swift */; };
+		BB75E80A2417C05E0076924A /* ScenarioFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7F12417C05E0076924A /* ScenarioFactory.swift */; };
+		BB75E80B2417C05E0076924A /* StandardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7F32417C05E0076924A /* StandardService.swift */; };
+		BB75E80C2417C05E0076924A /* PeripheralExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7F52417C05E0076924A /* PeripheralExtension.swift */; };
+		BB75E80D2417C05E0076924A /* StandardCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7F62417C05E0076924A /* StandardCharacteristic.swift */; };
+		BB75E80E2417C05E0076924A /* DataChunker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7F72417C05E0076924A /* DataChunker.swift */; };
+		BB75E80F2417C05E0076924A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E7F82417C05E0076924A /* Helper.swift */; };
+		BB75E8122417C0810076924A /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E8112417C0810076924A /* BLEManager.swift */; };
+		BB75E8182417C5880076924A /* GeometryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75E8172417C5880076924A /* GeometryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +55,7 @@
 		BB75E77E2417BCEC0076924A /* drawMySheepServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawMySheepServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB75E7812417BCEC0076924A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB75E7832417BCEC0076924A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB75E7852417BCEC0076924A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB75E7852417BCEC0076924A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BB75E7882417BCEC0076924A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB75E78A2417BCEE0076924A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB75E78D2417BCEE0076924A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +63,31 @@
 		BB75E7942417BCEE0076924A /* drawMySheepServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawMySheepServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB75E7982417BCEE0076924A /* drawMySheepServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawMySheepServerTests.swift; sourceTree = "<group>"; };
 		BB75E79A2417BCEE0076924A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB75E7DB2417C05E0076924A /* ChatPeripherals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatPeripherals.swift; sourceTree = "<group>"; };
+		BB75E7DD2417C05E0076924A /* ChararcteristicPipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChararcteristicPipe.swift; sourceTree = "<group>"; };
+		BB75E7DE2417C05E0076924A /* BLEServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEServer.swift; sourceTree = "<group>"; };
+		BB75E7DF2417C05E0076924A /* UIVIewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVIewControllerExtension.swift; sourceTree = "<group>"; };
+		BB75E7E02417C05E0076924A /* GATTStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GATTStruct.swift; sourceTree = "<group>"; };
+		BB75E7E22417C05E0076924A /* PeripheralState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralState.swift; sourceTree = "<group>"; };
+		BB75E7E32417C05E0076924A /* PeripheralController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralController.swift; sourceTree = "<group>"; };
+		BB75E7E42417C05E0076924A /* CharacteristicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacteristicController.swift; sourceTree = "<group>"; };
+		BB75E7E52417C05E0076924A /* ServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceController.swift; sourceTree = "<group>"; };
+		BB75E7E72417C05E0076924A /* PeripheralGATT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralGATT.swift; sourceTree = "<group>"; };
+		BB75E7E82417C05E0076924A /* GattModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GattModel.swift; sourceTree = "<group>"; };
+		BB75E7EA2417C05E0076924A /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		BB75E7EB2417C05E0076924A /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		BB75E7EC2417C05E0076924A /* DataConvertibleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertibleExtensions.swift; sourceTree = "<group>"; };
+		BB75E7EE2417C05E0076924A /* ScenarioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenarioManager.swift; sourceTree = "<group>"; };
+		BB75E7EF2417C05E0076924A /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		BB75E7F02417C05E0076924A /* Scenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
+		BB75E7F12417C05E0076924A /* ScenarioFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenarioFactory.swift; sourceTree = "<group>"; };
+		BB75E7F32417C05E0076924A /* StandardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardService.swift; sourceTree = "<group>"; };
+		BB75E7F52417C05E0076924A /* PeripheralExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralExtension.swift; sourceTree = "<group>"; };
+		BB75E7F62417C05E0076924A /* StandardCharacteristic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardCharacteristic.swift; sourceTree = "<group>"; };
+		BB75E7F72417C05E0076924A /* DataChunker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataChunker.swift; sourceTree = "<group>"; };
+		BB75E7F82417C05E0076924A /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		BB75E8112417C0810076924A /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		BB75E8172417C5880076924A /* GeometryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +129,15 @@
 		BB75E7802417BCEC0076924A /* drawMySheepServer */ = {
 			isa = PBXGroup;
 			children = (
+				BB75E8102417C0620076924A /* New Group */,
 				BB75E7812417BCEC0076924A /* AppDelegate.swift */,
 				BB75E7832417BCEC0076924A /* SceneDelegate.swift */,
-				BB75E7852417BCEC0076924A /* ViewController.swift */,
+				BB75E7852417BCEC0076924A /* MainViewController.swift */,
 				BB75E7872417BCEC0076924A /* Main.storyboard */,
 				BB75E78A2417BCEE0076924A /* Assets.xcassets */,
 				BB75E78C2417BCEE0076924A /* LaunchScreen.storyboard */,
 				BB75E78F2417BCEE0076924A /* Info.plist */,
+				BB75E8172417C5880076924A /* GeometryCollectionViewCell.swift */,
 			);
 			path = drawMySheepServer;
 			sourceTree = "<group>";
@@ -97,6 +149,93 @@
 				BB75E79A2417BCEE0076924A /* Info.plist */,
 			);
 			path = drawMySheepServerTests;
+			sourceTree = "<group>";
+		};
+		BB75E7DC2417C05E0076924A /* CommonServer */ = {
+			isa = PBXGroup;
+			children = (
+				BB75E7DD2417C05E0076924A /* ChararcteristicPipe.swift */,
+				BB75E7DE2417C05E0076924A /* BLEServer.swift */,
+				BB75E7DF2417C05E0076924A /* UIVIewControllerExtension.swift */,
+				BB75E7E02417C05E0076924A /* GATTStruct.swift */,
+				BB75E7E12417C05E0076924A /* BLESimu */,
+				BB75E7E92417C05E0076924A /* Extensions */,
+				BB75E7ED2417C05E0076924A /* Scenario */,
+				BB75E7F22417C05E0076924A /* StandardService */,
+			);
+			path = CommonServer;
+			sourceTree = "<group>";
+		};
+		BB75E7E12417C05E0076924A /* BLESimu */ = {
+			isa = PBXGroup;
+			children = (
+				BB75E7E22417C05E0076924A /* PeripheralState.swift */,
+				BB75E7E32417C05E0076924A /* PeripheralController.swift */,
+				BB75E7E42417C05E0076924A /* CharacteristicController.swift */,
+				BB75E7E52417C05E0076924A /* ServiceController.swift */,
+				BB75E7E62417C05E0076924A /* Model */,
+			);
+			path = BLESimu;
+			sourceTree = "<group>";
+		};
+		BB75E7E62417C05E0076924A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB75E7E72417C05E0076924A /* PeripheralGATT.swift */,
+				BB75E7E82417C05E0076924A /* GattModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB75E7E92417C05E0076924A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB75E7EA2417C05E0076924A /* ArrayExtensions.swift */,
+				BB75E7EB2417C05E0076924A /* StringExtensions.swift */,
+				BB75E7EC2417C05E0076924A /* DataConvertibleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BB75E7ED2417C05E0076924A /* Scenario */ = {
+			isa = PBXGroup;
+			children = (
+				BB75E7EE2417C05E0076924A /* ScenarioManager.swift */,
+				BB75E7EF2417C05E0076924A /* Stack.swift */,
+				BB75E7F02417C05E0076924A /* Scenario.swift */,
+				BB75E7F12417C05E0076924A /* ScenarioFactory.swift */,
+			);
+			path = Scenario;
+			sourceTree = "<group>";
+		};
+		BB75E7F22417C05E0076924A /* StandardService */ = {
+			isa = PBXGroup;
+			children = (
+				BB75E7F32417C05E0076924A /* StandardService.swift */,
+				BB75E7F42417C05E0076924A /* PeripheralExtension */,
+				BB75E7F62417C05E0076924A /* StandardCharacteristic.swift */,
+			);
+			path = StandardService;
+			sourceTree = "<group>";
+		};
+		BB75E7F42417C05E0076924A /* PeripheralExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BB75E7F52417C05E0076924A /* PeripheralExtension.swift */,
+			);
+			path = PeripheralExtension;
+			sourceTree = "<group>";
+		};
+		BB75E8102417C0620076924A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				BB75E8112417C0810076924A /* BLEManager.swift */,
+				BB75E7DB2417C05E0076924A /* ChatPeripherals.swift */,
+				BB75E7DC2417C05E0076924A /* CommonServer */,
+				BB75E7F72417C05E0076924A /* DataChunker.swift */,
+				BB75E7F82417C05E0076924A /* Helper.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +339,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB75E7862417BCEC0076924A /* ViewController.swift in Sources */,
+				BB75E8002417C05E0076924A /* CharacteristicController.swift in Sources */,
+				BB75E8042417C05E0076924A /* ArrayExtensions.swift in Sources */,
+				BB75E80A2417C05E0076924A /* ScenarioFactory.swift in Sources */,
+				BB75E7FD2417C05E0076924A /* GATTStruct.swift in Sources */,
+				BB75E7FE2417C05E0076924A /* PeripheralState.swift in Sources */,
+				BB75E8012417C05E0076924A /* ServiceController.swift in Sources */,
+				BB75E7862417BCEC0076924A /* MainViewController.swift in Sources */,
+				BB75E7FF2417C05E0076924A /* PeripheralController.swift in Sources */,
+				BB75E8182417C5880076924A /* GeometryCollectionViewCell.swift in Sources */,
+				BB75E80C2417C05E0076924A /* PeripheralExtension.swift in Sources */,
+				BB75E7FA2417C05E0076924A /* ChararcteristicPipe.swift in Sources */,
+				BB75E8052417C05E0076924A /* StringExtensions.swift in Sources */,
+				BB75E80E2417C05E0076924A /* DataChunker.swift in Sources */,
+				BB75E8072417C05E0076924A /* ScenarioManager.swift in Sources */,
+				BB75E8032417C05E0076924A /* GattModel.swift in Sources */,
+				BB75E7FB2417C05E0076924A /* BLEServer.swift in Sources */,
 				BB75E7822417BCEC0076924A /* AppDelegate.swift in Sources */,
+				BB75E8122417C0810076924A /* BLEManager.swift in Sources */,
+				BB75E8092417C05E0076924A /* Scenario.swift in Sources */,
 				BB75E7842417BCEC0076924A /* SceneDelegate.swift in Sources */,
+				BB75E80D2417C05E0076924A /* StandardCharacteristic.swift in Sources */,
+				BB75E80B2417C05E0076924A /* StandardService.swift in Sources */,
+				BB75E7F92417C05E0076924A /* ChatPeripherals.swift in Sources */,
+				BB75E7FC2417C05E0076924A /* UIVIewControllerExtension.swift in Sources */,
+				BB75E8022417C05E0076924A /* PeripheralGATT.swift in Sources */,
+				BB75E80F2417C05E0076924A /* Helper.swift in Sources */,
+				BB75E8082417C05E0076924A /* Stack.swift in Sources */,
+				BB75E8062417C05E0076924A /* DataConvertibleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
